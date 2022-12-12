@@ -5,6 +5,9 @@ using UnityEngine;
 public class Orbiter : MonoBehaviour
 {
     public Transform world;
+    public bool x_axis;
+    public bool y_axis;
+    public bool z_axis;
     public float rotationSpeed = 1f;
 
     // Start is called before the first frame update
@@ -16,8 +19,6 @@ public class Orbiter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // world.Rotate(new Vector3(0,rotationSpeed,0), Space.World);
-        //    world.transform.position = new Vector3(-0.75f, 0.0f, 0.0f);
-        world.transform.Rotate(0.0f,rotationSpeed, 0.0f, Space.World);
+        world.transform.Rotate(x_axis ? rotationSpeed : 0.0f, y_axis ? rotationSpeed : 0.0f, z_axis ? rotationSpeed : 0.0f, Space.World);
     }
 }
