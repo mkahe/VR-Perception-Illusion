@@ -2,7 +2,7 @@
 In this repo you can find a couple of different VR experiments created with Unity and Oculuc Quest 2.
 
 ## How to run the experiments
-
+To run this experiment you need an Oculus headset (Rift, Quest or Quest 2). In order to keep the repository light, we have not added the executable file in the codes. It could be easily built with Unity Hub toolkit and run on Oculus VR headset.
 
 ## Scenes
 Here is the final version of all scenes. The buttons give teleportation facility by which participants can relocate from one scene to another.
@@ -27,14 +27,18 @@ This visual illusion examines the effects of rotation on user's visual perceptio
 * First experiment: Two spheres are spinning in different sides (One turns right and the other turns left)
 * Second experiment: Two spheres are spinning in the same direction. One, however, spins as twice fast as the other.
 * Third experiment: Two spheres spinning. One is turning around z axis, and another spins around x axis.
-* Forth experiment: Two spheres are spinning, but one is double size. They both rotate in the same direction. 
+* Fourth experiment: Two spheres are spinning, but one is double size. They both rotate in the same direction. 
 
 We want to examine if it is an uncomfortable experience for the user, or whether or not they have duplicate visions based on the distance or place of the object in the scene. 
 ![scene 3](Docs/scene-3.png)
 
 
 ## Scene 4
-This visual illusion examining user's visual perception. This also examines user's reaction towards 
+This visual illusion examining user's visual perception. This also examines user's reaction towards spinning object. Plus, we want to see how different the perception of left handed and right handed people are different. For the sake of this purpose, there are four different experiments with these requirements:
+* First experiment: Three barber poles are spinning. The first two are at the same location (Once can be seen with left eye, and the other is seen with right one), and the other is on the right side (This is seen with right eye only). So, if the user look at this scene, they might see that two spinning barber poles are in the same way, and uncounciously their mind ignores the opposite spinning barber pole.
+* Second experiment: The situation is the same. Except that user can see the right barber pole with their left eye.
+* Third experiment: User can play the sound. The audio say the words "Left" and "Right" repeatedly to see if user's perception can change or not.
+* Fourth experiment: There are two spinning barber poles in the center turning the opposite side, surrounded by two other spinning barber poles which rotate in the same direction. We realized that user's perception can change when they focus more on the surrounding barber poles.
 ![scene 4](Docs/scene-4.png)
 
 ## Credits
